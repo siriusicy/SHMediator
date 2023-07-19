@@ -7,35 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07E4354AAAD28CA5B3151B07761327ED /* SHMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6B11E59E700BFD1AC99B74646B00E /* SHMediator-dummy.m */; };
-		2D9D5B353228C93F4EE4D92C685243DA /* SHMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFACE47F6A78EC1F935CED9054BA82E1 /* SHMediator.m */; };
-		34557EBD314670ED9278521155178EC8 /* SHMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB368AEFD300ED670E8BD7C91A9B073 /* SHMediator+HandyTools.m */; };
+		06F1251B5B242A82EEBB654E640096FB /* SHMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D87C70731D59818C8AB81B8C7D01BF5 /* SHMediator-dummy.m */; };
+		15A148206AFA75A1D091936410B31B03 /* SHMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D469F0E79770905D5D1C65890768B038 /* SHMediator+HandyTools.m */; };
+		172FECD6A12DB9C84D72DEE616052223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		20F45F2567D3AD610B249D9618E6E51A /* SHMediator+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 70911F5B2F5B06D11A02B33EAB889656 /* SHMediator+Common.m */; };
+		363B9D2EEAE7321624071DDEB18B09E1 /* SHMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CE5D6952FE46E75C1AF9ED714F4B63 /* SHMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3810DA60D3CC5A4F857B82EFAFC0577C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		45723086DC8383D787836A509DFB5B50 /* SHMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0E45B04D2852547AA6DD19B6C775CF /* SHMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		448EED2D4828D12600DCFCB037AACA3E /* SHMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB79E69002292B04992301B6369C97B /* SHMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F588243F657E1BE6548D58C4BA8EEF /* SHMediator+Shell.m in Sources */ = {isa = PBXBuildFile; fileRef = C944128753FEDDC478E822D3C6633060 /* SHMediator+Shell.m */; };
 		49E47FCC0D2B2814B680C46BB7E60840 /* Pods-SHMediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C04FEEBA37C74C7AFA95317BD0A6553 /* Pods-SHMediator_Tests-dummy.m */; };
 		4D95E64041E5B165A7A9ABF1DAFFD681 /* Pods-SHMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC0995D2CF3ACAA03CCD47F327372E8 /* Pods-SHMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E87BA0CCAFDFB4E9A2A73137F41D7FE /* SHMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 262C5A05DFC50521BA368B024BD9DB0D /* SHMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9237766F567CE82D02336D7DD2F02DCA /* SHMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D74170974E9491932B82C7463398DE2 /* SHMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D6F672345E577F1FE8859518D8C02B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		622964A0604ED09DF43B8A93077C5C6C /* SHMediator+Shell.h in Headers */ = {isa = PBXBuildFile; fileRef = C448266971C4A5675205C2FFBBBFCCE1 /* SHMediator+Shell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FA939ED61C37DA093CEC647E95F3162 /* NSDictionary+SHCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A001931F9CCFEC1FB350155661E751 /* NSDictionary+SHCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C3E42BFF493FE4A27C650AF9C5E37E9 /* SHMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0A6F1E09DA519FDF08C8890AA930D5 /* SHMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94A756FFFB2E88F6208E0B88CA0DAF5D /* NSDictionary+SHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 779073924D96755D2D7BE3A0D8F1AD0B /* NSDictionary+SHCategory.m */; };
 		9E6F1E629F3ECC358AA9A0CE6951E21D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A3DA45B325C62A0C062D19CE4F849928 /* Pods-SHMediator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E39BDEEDEAC3E788E4A3AA6618064C15 /* Pods-SHMediator_Example-dummy.m */; };
+		D13F8904095591953F379CD9C89F273C /* SHMediator+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B5DDBBA577426E19BA84E2C458ECD8 /* SHMediator+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E94D5A898D6D5801041B1E3C3D426C69 /* Pods-SHMediator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35667F3C5D57CC1E6C933D5B22B17F43 /* Pods-SHMediator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6564CF00E95543251352B460DD83C79 /* SHMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 436B21E9FA7C39D385368807FA374995 /* SHMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		80511167BCBE60717F5B449A4935271D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F781245365FC66D568321140957F1F1F;
-			remoteInfo = "Pods-SHMediator_Example";
-		};
-		CC16DC6D0E67D08BAEFD856592D693DD /* PBXContainerItemProxy */ = {
+		7E0BB4F065AF86F10FA68F4C05CAC868 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 677FD0E19D24BA3E4A913214430AB678;
 			remoteInfo = SHMediator;
+		};
+		ABF1417B56ECE6EF0FA8ECFEA3046F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F781245365FC66D568321140957F1F1F;
+			remoteInfo = "Pods-SHMediator_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -43,39 +49,45 @@
 		05456CEAB94B15422321BA56F24882E8 /* Pods-SHMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0995B541FBD1220C41B2DD7A385AC1BC /* Pods-SHMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHMediator_Example.modulemap"; sourceTree = "<group>"; };
 		09E6309E56BB6792BE0700ED1A58BF7A /* Pods-SHMediator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHMediator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		145FB602A44E846C9E05A0D839DC3AC8 /* SHMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHMediator.modulemap; sourceTree = "<group>"; };
 		146FEF455E1A3EE4365DF4F6206FB129 /* Pods-SHMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		180BEA06B3C9D28E6F2185FC25F9DF62 /* Pods-SHMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		20FE17F10A95A81F3DF2DE84A5E81F3B /* SHMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SHMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		262C5A05DFC50521BA368B024BD9DB0D /* SHMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHMediator-umbrella.h"; sourceTree = "<group>"; };
 		2B236EC9EC5FF95EDAEFB9B304C20F6C /* Pods-SHMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2D74170974E9491932B82C7463398DE2 /* SHMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SHMediator+HandyTools.h"; path = "SHMediator/Classes/SHMediator/SHMediator+HandyTools.h"; sourceTree = "<group>"; };
 		308A73553DD253440E40C4EC1DBBB4D8 /* Pods-SHMediator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHMediator_Example-Info.plist"; sourceTree = "<group>"; };
-		34CEBF15935759FF0210DBD68A8E38CD /* SHMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHMediator-prefix.pch"; sourceTree = "<group>"; };
 		35667F3C5D57CC1E6C933D5B22B17F43 /* Pods-SHMediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHMediator_Example-umbrella.h"; sourceTree = "<group>"; };
+		3735C9C30EDF9B8EFA93838502DB63E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		392C0339EBA46895671E5A77AD5C8BBF /* SHMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SHMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4104F539EAF3B864ECFC3A669C60BC64 /* Pods-SHMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		436B21E9FA7C39D385368807FA374995 /* SHMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SHMediator.m; sourceTree = "<group>"; };
 		463B3D00CB3F266C63E24F2CC284A32D /* Pods-SHMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5C04FEEBA37C74C7AFA95317BD0A6553 /* Pods-SHMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHMediator_Tests-dummy.m"; sourceTree = "<group>"; };
+		70911F5B2F5B06D11A02B33EAB889656 /* SHMediator+Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHMediator+Common.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		779073924D96755D2D7BE3A0D8F1AD0B /* NSDictionary+SHCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SHCategory.m"; sourceTree = "<group>"; };
+		78ECB091C1DF6E9EB02EA5A7DC3BADA9 /* SHMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHMediator.release.xcconfig; sourceTree = "<group>"; };
 		7BC0995D2CF3ACAA03CCD47F327372E8 /* Pods-SHMediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHMediator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7C0E0BD7FC195A97C21DA82213C120BA /* Pods-SHMediator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SHMediator_Example"; path = Pods_SHMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86CA6665BB6B5CAB49C375017D239875 /* SHMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SHMediator-Info.plist"; sourceTree = "<group>"; };
+		840AE45912D94BDC911AD31745AC8183 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8818D995D1EC107D901C820F215F2CC5 /* Pods-SHMediator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SHMediator_Tests"; path = Pods_SHMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C361525EE7731EE8877E9774236D995 /* SHMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHMediator.release.xcconfig; sourceTree = "<group>"; };
+		8D87C70731D59818C8AB81B8C7D01BF5 /* SHMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHMediator-dummy.m"; sourceTree = "<group>"; };
+		90B5DDBBA577426E19BA84E2C458ECD8 /* SHMediator+Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHMediator+Common.h"; sourceTree = "<group>"; };
 		987A936B39B00C65A1D7EF8752C6B52E /* Pods-SHMediator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHMediator_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A07604448ED6DB603DE15887E7DBE8B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1CE5D6952FE46E75C1AF9ED714F4B63 /* SHMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SHMediator.h; sourceTree = "<group>"; };
+		A4B5441CFC31DD795A3EDF29F20ADD77 /* SHMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHMediator-prefix.pch"; sourceTree = "<group>"; };
+		A8A001931F9CCFEC1FB350155661E751 /* NSDictionary+SHCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SHCategory.h"; sourceTree = "<group>"; };
 		A90A8E46647991957B6F9B1259690CE4 /* Pods-SHMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHMediator_Tests.modulemap"; sourceTree = "<group>"; };
-		AB14EF0A91304A2C17F80ED1C8BB26A2 /* SHMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHMediator.modulemap; sourceTree = "<group>"; };
-		AFACE47F6A78EC1F935CED9054BA82E1 /* SHMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHMediator.m; path = SHMediator/Classes/SHMediator/SHMediator.m; sourceTree = "<group>"; };
 		B43F1DCA678A9E1AC0D1AE02D06409FC /* Pods-SHMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CD0E45B04D2852547AA6DD19B6C775CF /* SHMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHMediator.h; path = SHMediator/Classes/SHMediator/SHMediator.h; sourceTree = "<group>"; };
-		CDB368AEFD300ED670E8BD7C91A9B073 /* SHMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SHMediator+HandyTools.m"; path = "SHMediator/Classes/SHMediator/SHMediator+HandyTools.m"; sourceTree = "<group>"; };
-		E39349B913C0B70E6BF826229E2F5342 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BD0A6F1E09DA519FDF08C8890AA930D5 /* SHMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHMediator+HandyTools.h"; sourceTree = "<group>"; };
+		C448266971C4A5675205C2FFBBBFCCE1 /* SHMediator+Shell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHMediator+Shell.h"; sourceTree = "<group>"; };
+		C944128753FEDDC478E822D3C6633060 /* SHMediator+Shell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHMediator+Shell.m"; sourceTree = "<group>"; };
+		CBCA89FF8C116458D727BB52BB372891 /* SHMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SHMediator-Info.plist"; sourceTree = "<group>"; };
+		D469F0E79770905D5D1C65890768B038 /* SHMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHMediator+HandyTools.m"; sourceTree = "<group>"; };
 		E39BDEEDEAC3E788E4A3AA6618064C15 /* Pods-SHMediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHMediator_Example-dummy.m"; sourceTree = "<group>"; };
 		E3ED7A6E539B59B966F41699AEDB7903 /* SHMediator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHMediator; path = SHMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E430F3CEB0CBB7EE81A3711F8CC070FF /* Pods-SHMediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHMediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E6B6B11E59E700BFD1AC99B74646B00E /* SHMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHMediator-dummy.m"; sourceTree = "<group>"; };
-		E91C647947A26F0E2C2D2D52321C5DB5 /* SHMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHMediator.debug.xcconfig; sourceTree = "<group>"; };
+		E495B6D1889460854636A79D8EA16ED7 /* SHMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHMediator.debug.xcconfig; sourceTree = "<group>"; };
+		FAB79E69002292B04992301B6369C97B /* SHMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHMediator-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,14 +99,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D234E7ADDAF00E2C581529267BFDF29 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D6F672345E577F1FE8859518D8C02B0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		69C2C897A5551147E5243130B978EF92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,19 +107,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B068F521C2FB98E283F0164E2EA2840B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172FECD6A12DB9C84D72DEE616052223 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		271D879116BEDCB56C95305CF3AD37DC /* Support Files */ = {
+		33736896F3A2CF351A90753518E51423 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				AB14EF0A91304A2C17F80ED1C8BB26A2 /* SHMediator.modulemap */,
-				E6B6B11E59E700BFD1AC99B74646B00E /* SHMediator-dummy.m */,
-				86CA6665BB6B5CAB49C375017D239875 /* SHMediator-Info.plist */,
-				34CEBF15935759FF0210DBD68A8E38CD /* SHMediator-prefix.pch */,
-				262C5A05DFC50521BA368B024BD9DB0D /* SHMediator-umbrella.h */,
-				E91C647947A26F0E2C2D2D52321C5DB5 /* SHMediator.debug.xcconfig */,
-				8C361525EE7731EE8877E9774236D995 /* SHMediator.release.xcconfig */,
+				90B5DDBBA577426E19BA84E2C458ECD8 /* SHMediator+Common.h */,
+				70911F5B2F5B06D11A02B33EAB889656 /* SHMediator+Common.m */,
+			);
+			name = Common;
+			path = SHMediator/Classes/Common;
+			sourceTree = "<group>";
+		};
+		376150E548DB67C6DA963CA29C8D0812 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				145FB602A44E846C9E05A0D839DC3AC8 /* SHMediator.modulemap */,
+				8D87C70731D59818C8AB81B8C7D01BF5 /* SHMediator-dummy.m */,
+				CBCA89FF8C116458D727BB52BB372891 /* SHMediator-Info.plist */,
+				A4B5441CFC31DD795A3EDF29F20ADD77 /* SHMediator-prefix.pch */,
+				FAB79E69002292B04992301B6369C97B /* SHMediator-umbrella.h */,
+				E495B6D1889460854636A79D8EA16ED7 /* SHMediator.debug.xcconfig */,
+				78ECB091C1DF6E9EB02EA5A7DC3BADA9 /* SHMediator.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SHMediator";
@@ -154,12 +176,56 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6B22054A24E4B9D800B9196EC5CCBCB5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				840AE45912D94BDC911AD31745AC8183 /* LICENSE */,
+				3735C9C30EDF9B8EFA93838502DB63E6 /* README.md */,
+				392C0339EBA46895671E5A77AD5C8BBF /* SHMediator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		829EB8B25B76BA0706EFA0F1A783D2E8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ECE43805B7427D59A3A2E0A2769E5504 /* SHMediator */,
+				BB9451FD2F19E335D3F104E449A33D35 /* SHMediator */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		84F31961AF60437B27C3F5C1D6C113CD /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				C448266971C4A5675205C2FFBBBFCCE1 /* SHMediator+Shell.h */,
+				C944128753FEDDC478E822D3C6633060 /* SHMediator+Shell.m */,
+			);
+			name = Shell;
+			path = SHMediator/Classes/Shell;
+			sourceTree = "<group>";
+		};
+		A3BFE7DBDD629929ABE06FFADCF224DF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A8A001931F9CCFEC1FB350155661E751 /* NSDictionary+SHCategory.h */,
+				779073924D96755D2D7BE3A0D8F1AD0B /* NSDictionary+SHCategory.m */,
+			);
+			name = Tool;
+			path = SHMediator/Classes/Tool;
+			sourceTree = "<group>";
+		};
+		BB9451FD2F19E335D3F104E449A33D35 /* SHMediator */ = {
+			isa = PBXGroup;
+			children = (
+				33736896F3A2CF351A90753518E51423 /* Common */,
+				6B22054A24E4B9D800B9196EC5CCBCB5 /* Pod */,
+				84F31961AF60437B27C3F5C1D6C113CD /* Shell */,
+				DF5EFEA7D9C67CB5EEFAF5AB4F2FF4DC /* SHMediator */,
+				376150E548DB67C6DA963CA29C8D0812 /* Support Files */,
+				A3BFE7DBDD629929ABE06FFADCF224DF /* Tool */,
+			);
+			name = SHMediator;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -181,6 +247,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF5EFEA7D9C67CB5EEFAF5AB4F2FF4DC /* SHMediator */ = {
+			isa = PBXGroup;
+			children = (
+				A1CE5D6952FE46E75C1AF9ED714F4B63 /* SHMediator.h */,
+				436B21E9FA7C39D385368807FA374995 /* SHMediator.m */,
+				BD0A6F1E09DA519FDF08C8890AA930D5 /* SHMediator+HandyTools.h */,
+				D469F0E79770905D5D1C65890768B038 /* SHMediator+HandyTools.m */,
+			);
+			name = SHMediator;
+			path = SHMediator/Classes/SHMediator;
+			sourceTree = "<group>";
+		};
 		E63C969A7F56773E7D62276F30485204 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,30 +267,6 @@
 				E3ED7A6E539B59B966F41699AEDB7903 /* SHMediator */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		ECE43805B7427D59A3A2E0A2769E5504 /* SHMediator */ = {
-			isa = PBXGroup;
-			children = (
-				CD0E45B04D2852547AA6DD19B6C775CF /* SHMediator.h */,
-				AFACE47F6A78EC1F935CED9054BA82E1 /* SHMediator.m */,
-				2D74170974E9491932B82C7463398DE2 /* SHMediator+HandyTools.h */,
-				CDB368AEFD300ED670E8BD7C91A9B073 /* SHMediator+HandyTools.m */,
-				F0EC1D493BB43416D94D0CABE627B9B7 /* Pod */,
-				271D879116BEDCB56C95305CF3AD37DC /* Support Files */,
-			);
-			name = SHMediator;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F0EC1D493BB43416D94D0CABE627B9B7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A07604448ED6DB603DE15887E7DBE8B0 /* LICENSE */,
-				E39349B913C0B70E6BF826229E2F5342 /* README.md */,
-				20FE17F10A95A81F3DF2DE84A5E81F3B /* SHMediator.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		F1C15BDFEF57BFF5B80DC5FEF77C1D37 /* Pods-SHMediator_Example */ = {
@@ -243,13 +297,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B4FB1BCE8F7ABCDAE61EE9DE5BC2249 /* Headers */ = {
+		1D63A3F287E247A54E770F044CE6C40A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45723086DC8383D787836A509DFB5B50 /* SHMediator.h in Headers */,
-				9237766F567CE82D02336D7DD2F02DCA /* SHMediator+HandyTools.h in Headers */,
-				8E87BA0CCAFDFB4E9A2A73137F41D7FE /* SHMediator-umbrella.h in Headers */,
+				6FA939ED61C37DA093CEC647E95F3162 /* NSDictionary+SHCategory.h in Headers */,
+				363B9D2EEAE7321624071DDEB18B09E1 /* SHMediator.h in Headers */,
+				D13F8904095591953F379CD9C89F273C /* SHMediator+Common.h in Headers */,
+				7C3E42BFF493FE4A27C650AF9C5E37E9 /* SHMediator+HandyTools.h in Headers */,
+				622964A0604ED09DF43B8A93077C5C6C /* SHMediator+Shell.h in Headers */,
+				448EED2D4828D12600DCFCB037AACA3E /* SHMediator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,12 +323,12 @@
 /* Begin PBXNativeTarget section */
 		677FD0E19D24BA3E4A913214430AB678 /* SHMediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9476ECC0A38F337251C3234E4933B041 /* Build configuration list for PBXNativeTarget "SHMediator" */;
+			buildConfigurationList = 20BE3E2C39FAC4B345ED0FA74C604267 /* Build configuration list for PBXNativeTarget "SHMediator" */;
 			buildPhases = (
-				6B4FB1BCE8F7ABCDAE61EE9DE5BC2249 /* Headers */,
-				2D87A8838BA274064A381C92F660C145 /* Sources */,
-				3D234E7ADDAF00E2C581529267BFDF29 /* Frameworks */,
-				68B16293B09BFB75DF65C990B13CBF65 /* Resources */,
+				1D63A3F287E247A54E770F044CE6C40A /* Headers */,
+				3B6AC4C4D4B6D52E21D6DA8DF9D7487D /* Sources */,
+				B068F521C2FB98E283F0164E2EA2840B /* Frameworks */,
+				F71A92C8F2CA3A8E8A47CC047201EA1F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -294,7 +351,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				206B0EBA31DF8CD61B8793EAEF85857B /* PBXTargetDependency */,
+				B6D1740690B9BA995BE3CB22E05DA0D5 /* PBXTargetDependency */,
 			);
 			name = "Pods-SHMediator_Tests";
 			productName = Pods_SHMediator_Tests;
@@ -313,7 +370,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3D9D57031EC7ACA314F5D932ADBF8B3E /* PBXTargetDependency */,
+				A1A857C9E99B789D1F0122CAF4AF6DF0 /* PBXTargetDependency */,
 			);
 			name = "Pods-SHMediator_Example";
 			productName = Pods_SHMediator_Example;
@@ -364,7 +421,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68B16293B09BFB75DF65C990B13CBF65 /* Resources */ = {
+		F71A92C8F2CA3A8E8A47CC047201EA1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,13 +431,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D87A8838BA274064A381C92F660C145 /* Sources */ = {
+		3B6AC4C4D4B6D52E21D6DA8DF9D7487D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D9D5B353228C93F4EE4D92C685243DA /* SHMediator.m in Sources */,
-				34557EBD314670ED9278521155178EC8 /* SHMediator+HandyTools.m in Sources */,
-				07E4354AAAD28CA5B3151B07761327ED /* SHMediator-dummy.m in Sources */,
+				94A756FFFB2E88F6208E0B88CA0DAF5D /* NSDictionary+SHCategory.m in Sources */,
+				F6564CF00E95543251352B460DD83C79 /* SHMediator.m in Sources */,
+				20F45F2567D3AD610B249D9618E6E51A /* SHMediator+Common.m in Sources */,
+				15A148206AFA75A1D091936410B31B03 /* SHMediator+HandyTools.m in Sources */,
+				47F588243F657E1BE6548D58C4BA8EEF /* SHMediator+Shell.m in Sources */,
+				06F1251B5B242A82EEBB654E640096FB /* SHMediator-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,21 +463,52 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		206B0EBA31DF8CD61B8793EAEF85857B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SHMediator_Example";
-			target = F781245365FC66D568321140957F1F1F /* Pods-SHMediator_Example */;
-			targetProxy = 80511167BCBE60717F5B449A4935271D /* PBXContainerItemProxy */;
-		};
-		3D9D57031EC7ACA314F5D932ADBF8B3E /* PBXTargetDependency */ = {
+		A1A857C9E99B789D1F0122CAF4AF6DF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SHMediator;
 			target = 677FD0E19D24BA3E4A913214430AB678 /* SHMediator */;
-			targetProxy = CC16DC6D0E67D08BAEFD856592D693DD /* PBXContainerItemProxy */;
+			targetProxy = 7E0BB4F065AF86F10FA68F4C05CAC868 /* PBXContainerItemProxy */;
+		};
+		B6D1740690B9BA995BE3CB22E05DA0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SHMediator_Example";
+			target = F781245365FC66D568321140957F1F1F /* Pods-SHMediator_Example */;
+			targetProxy = ABF1417B56ECE6EF0FA8ECFEA3046F48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		04808FF77C0ECFBEDE821BA9F180AFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E495B6D1889460854636A79D8EA16ED7 /* SHMediator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SHMediator/SHMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SHMediator/SHMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SHMediator/SHMediator.modulemap";
+				PRODUCT_MODULE_NAME = SHMediator;
+				PRODUCT_NAME = SHMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		454D35EF092B43308A0ABC93307C32FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 146FEF455E1A3EE4365DF4F6206FB129 /* Pods-SHMediator_Tests.debug.xcconfig */;
@@ -607,16 +698,15 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D281DCA4526E72CBFC44FE01BE739821 /* Debug */ = {
+		B9DA3E57F455DB85DEF7E902A5326178 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E91C647947A26F0E2C2D2D52321C5DB5 /* SHMediator.debug.xcconfig */;
+			baseConfigurationReference = 78ECB091C1DF6E9EB02EA5A7DC3BADA9 /* SHMediator.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -640,10 +730,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -711,41 +802,18 @@
 			};
 			name = Debug;
 		};
-		FF46CC2B4E6EF100F22C35674BF6E0EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C361525EE7731EE8877E9774236D995 /* SHMediator.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SHMediator/SHMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SHMediator/SHMediator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SHMediator/SHMediator.modulemap";
-				PRODUCT_MODULE_NAME = SHMediator;
-				PRODUCT_NAME = SHMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20BE3E2C39FAC4B345ED0FA74C604267 /* Build configuration list for PBXNativeTarget "SHMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04808FF77C0ECFBEDE821BA9F180AFD9 /* Debug */,
+				B9DA3E57F455DB85DEF7E902A5326178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -760,15 +828,6 @@
 			buildConfigurations = (
 				454D35EF092B43308A0ABC93307C32FF /* Debug */,
 				5A6B4FF07A22D2AC51B5B4DE64439405 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9476ECC0A38F337251C3234E4933B041 /* Build configuration list for PBXNativeTarget "SHMediator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D281DCA4526E72CBFC44FE01BE739821 /* Debug */,
-				FF46CC2B4E6EF100F22C35674BF6E0EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

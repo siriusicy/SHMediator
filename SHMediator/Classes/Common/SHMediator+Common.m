@@ -23,4 +23,17 @@ NSString * const kTarget_Common = @"CommonActions";
 
     return vc;
 }
+
+
+///app启动, 做一些初始化操作
++ (void)appDidFinishLaunching {
+    
+    [self.sharedInstance performTarget:kTarget_Common
+                                action:@"appDidFinishLaunching111"
+                                params:nil
+                     shouldCacheTarget:NO];
+    
+}
+
+
 @end

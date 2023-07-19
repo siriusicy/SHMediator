@@ -22,6 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		840EFD9C2A67D07B0011A5A4 /* Target_ShellActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFD9A2A67D07B0011A5A4 /* Target_ShellActions.m */; };
+		840EFDA02A67D0A40011A5A4 /* Target_CommonActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EFD9E2A67D0A40011A5A4 /* Target_CommonActions.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CFF1570CA60D0B7052724DB5 /* Pods_SHMediator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228007264AC7EA8E9E956625 /* Pods_SHMediator_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +62,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840EFD9A2A67D07B0011A5A4 /* Target_ShellActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_ShellActions.m; sourceTree = "<group>"; };
+		840EFD9B2A67D07B0011A5A4 /* Target_ShellActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ShellActions.h; sourceTree = "<group>"; };
+		840EFD9E2A67D0A40011A5A4 /* Target_CommonActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_CommonActions.m; sourceTree = "<group>"; };
+		840EFD9F2A67D0A40011A5A4 /* Target_CommonActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_CommonActions.h; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1B38A8C38E83A505E3BF6BD /* Pods-SHMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHMediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-SHMediator_Example/Pods-SHMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D6E86755AC6A4D17531A6990 /* SHMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHMediator.podspec; path = ../SHMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -132,6 +138,8 @@
 		6003F593195388D20070C39A /* Example for SHMediator */ = {
 			isa = PBXGroup;
 			children = (
+				840EFD9D2A67D0A40011A5A4 /* SHCommonActions */,
+				840EFD992A67D07B0011A5A4 /* ShellActions */,
 				6003F59C195388D20070C39A /* SHAppDelegate.h */,
 				6003F59D195388D20070C39A /* SHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -183,6 +191,24 @@
 				EA5A48E1747316EE78179C2F /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		840EFD992A67D07B0011A5A4 /* ShellActions */ = {
+			isa = PBXGroup;
+			children = (
+				840EFD9B2A67D07B0011A5A4 /* Target_ShellActions.h */,
+				840EFD9A2A67D07B0011A5A4 /* Target_ShellActions.m */,
+			);
+			path = ShellActions;
+			sourceTree = "<group>";
+		};
+		840EFD9D2A67D0A40011A5A4 /* SHCommonActions */ = {
+			isa = PBXGroup;
+			children = (
+				840EFD9F2A67D0A40011A5A4 /* Target_CommonActions.h */,
+				840EFD9E2A67D0A40011A5A4 /* Target_CommonActions.m */,
+			);
+			path = SHCommonActions;
 			sourceTree = "<group>";
 		};
 		C26DF410951C93832BD5AAF2 /* Pods */ = {
@@ -368,8 +394,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SHAppDelegate.m in Sources */,
+				840EFDA02A67D0A40011A5A4 /* Target_CommonActions.m in Sources */,
 				6003F5A7195388D20070C39A /* SHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				840EFD9C2A67D07B0011A5A4 /* Target_ShellActions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

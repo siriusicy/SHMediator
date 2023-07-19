@@ -7,6 +7,8 @@
 //
 
 #import "SHViewController.h"
+#import <SHMediator/SHMediator+Common.h>
+#import <SHMediator/SHMediator+Shell.h>
 
 @interface SHViewController ()
 
@@ -14,10 +16,22 @@
 
 @implementation SHViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [SHMediator appDidFinishLaunching];
+    
+    
+//    [SHMediator addTrackWithEvent:@"eventXX" params:@{
+//        @"info1": @"test1",
+//    }];
+//
+//    UIViewController *vc =[SHMediator orderConfirmVCWithOrderId:@(1)];
+//    [self.navigationController pushViewController:vc animated:YES];
+//
+//
 }
 
 - (void)didReceiveMemoryWarning
