@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E4354AAAD28CA5B3151B07761327ED /* SHMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6B11E59E700BFD1AC99B74646B00E /* SHMediator-dummy.m */; };
+		2D9D5B353228C93F4EE4D92C685243DA /* SHMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFACE47F6A78EC1F935CED9054BA82E1 /* SHMediator.m */; };
+		34557EBD314670ED9278521155178EC8 /* SHMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB368AEFD300ED670E8BD7C91A9B073 /* SHMediator+HandyTools.m */; };
+		3810DA60D3CC5A4F857B82EFAFC0577C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		45723086DC8383D787836A509DFB5B50 /* SHMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0E45B04D2852547AA6DD19B6C775CF /* SHMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E47FCC0D2B2814B680C46BB7E60840 /* Pods-SHMediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C04FEEBA37C74C7AFA95317BD0A6553 /* Pods-SHMediator_Tests-dummy.m */; };
+		4D95E64041E5B165A7A9ABF1DAFFD681 /* Pods-SHMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC0995D2CF3ACAA03CCD47F327372E8 /* Pods-SHMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E87BA0CCAFDFB4E9A2A73137F41D7FE /* SHMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 262C5A05DFC50521BA368B024BD9DB0D /* SHMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9237766F567CE82D02336D7DD2F02DCA /* SHMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D74170974E9491932B82C7463398DE2 /* SHMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D6F672345E577F1FE8859518D8C02B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9E6F1E629F3ECC358AA9A0CE6951E21D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A3DA45B325C62A0C062D19CE4F849928 /* Pods-SHMediator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E39BDEEDEAC3E788E4A3AA6618064C15 /* Pods-SHMediator_Example-dummy.m */; };
+		E94D5A898D6D5801041B1E3C3D426C69 /* Pods-SHMediator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35667F3C5D57CC1E6C933D5B22B17F43 /* Pods-SHMediator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80511167BCBE60717F5B449A4935271D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F781245365FC66D568321140957F1F1F;
+			remoteInfo = "Pods-SHMediator_Example";
+		};
+		CC16DC6D0E67D08BAEFD856592D693DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 677FD0E19D24BA3E4A913214430AB678;
+			remoteInfo = SHMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05456CEAB94B15422321BA56F24882E8 /* Pods-SHMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0995B541FBD1220C41B2DD7A385AC1BC /* Pods-SHMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHMediator_Example.modulemap"; sourceTree = "<group>"; };
+		09E6309E56BB6792BE0700ED1A58BF7A /* Pods-SHMediator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHMediator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		146FEF455E1A3EE4365DF4F6206FB129 /* Pods-SHMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		180BEA06B3C9D28E6F2185FC25F9DF62 /* Pods-SHMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20FE17F10A95A81F3DF2DE84A5E81F3B /* SHMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SHMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		262C5A05DFC50521BA368B024BD9DB0D /* SHMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHMediator-umbrella.h"; sourceTree = "<group>"; };
+		2B236EC9EC5FF95EDAEFB9B304C20F6C /* Pods-SHMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2D74170974E9491932B82C7463398DE2 /* SHMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SHMediator+HandyTools.h"; path = "SHMediator/Classes/SHMediator/SHMediator+HandyTools.h"; sourceTree = "<group>"; };
+		308A73553DD253440E40C4EC1DBBB4D8 /* Pods-SHMediator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHMediator_Example-Info.plist"; sourceTree = "<group>"; };
+		34CEBF15935759FF0210DBD68A8E38CD /* SHMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHMediator-prefix.pch"; sourceTree = "<group>"; };
+		35667F3C5D57CC1E6C933D5B22B17F43 /* Pods-SHMediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHMediator_Example-umbrella.h"; sourceTree = "<group>"; };
+		4104F539EAF3B864ECFC3A669C60BC64 /* Pods-SHMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		463B3D00CB3F266C63E24F2CC284A32D /* Pods-SHMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C04FEEBA37C74C7AFA95317BD0A6553 /* Pods-SHMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHMediator_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BC0995D2CF3ACAA03CCD47F327372E8 /* Pods-SHMediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHMediator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7C0E0BD7FC195A97C21DA82213C120BA /* Pods-SHMediator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SHMediator_Example"; path = Pods_SHMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CA6665BB6B5CAB49C375017D239875 /* SHMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SHMediator-Info.plist"; sourceTree = "<group>"; };
+		8818D995D1EC107D901C820F215F2CC5 /* Pods-SHMediator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SHMediator_Tests"; path = Pods_SHMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C361525EE7731EE8877E9774236D995 /* SHMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHMediator.release.xcconfig; sourceTree = "<group>"; };
+		987A936B39B00C65A1D7EF8752C6B52E /* Pods-SHMediator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHMediator_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A07604448ED6DB603DE15887E7DBE8B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A90A8E46647991957B6F9B1259690CE4 /* Pods-SHMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHMediator_Tests.modulemap"; sourceTree = "<group>"; };
+		AB14EF0A91304A2C17F80ED1C8BB26A2 /* SHMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHMediator.modulemap; sourceTree = "<group>"; };
+		AFACE47F6A78EC1F935CED9054BA82E1 /* SHMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHMediator.m; path = SHMediator/Classes/SHMediator/SHMediator.m; sourceTree = "<group>"; };
+		B43F1DCA678A9E1AC0D1AE02D06409FC /* Pods-SHMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CD0E45B04D2852547AA6DD19B6C775CF /* SHMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHMediator.h; path = SHMediator/Classes/SHMediator/SHMediator.h; sourceTree = "<group>"; };
+		CDB368AEFD300ED670E8BD7C91A9B073 /* SHMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SHMediator+HandyTools.m"; path = "SHMediator/Classes/SHMediator/SHMediator+HandyTools.m"; sourceTree = "<group>"; };
+		E39349B913C0B70E6BF826229E2F5342 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E39BDEEDEAC3E788E4A3AA6618064C15 /* Pods-SHMediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHMediator_Example-dummy.m"; sourceTree = "<group>"; };
+		E3ED7A6E539B59B966F41699AEDB7903 /* SHMediator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHMediator; path = SHMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E430F3CEB0CBB7EE81A3711F8CC070FF /* Pods-SHMediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHMediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6B6B11E59E700BFD1AC99B74646B00E /* SHMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHMediator-dummy.m"; sourceTree = "<group>"; };
+		E91C647947A26F0E2C2D2D52321C5DB5 /* SHMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHMediator.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388E69D0198ADA4AFDD2241FB46A7942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6F1E629F3ECC358AA9A0CE6951E21D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D234E7ADDAF00E2C581529267BFDF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6F672345E577F1FE8859518D8C02B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C2C897A5551147E5243130B978EF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3810DA60D3CC5A4F857B82EFAFC0577C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271D879116BEDCB56C95305CF3AD37DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB14EF0A91304A2C17F80ED1C8BB26A2 /* SHMediator.modulemap */,
+				E6B6B11E59E700BFD1AC99B74646B00E /* SHMediator-dummy.m */,
+				86CA6665BB6B5CAB49C375017D239875 /* SHMediator-Info.plist */,
+				34CEBF15935759FF0210DBD68A8E38CD /* SHMediator-prefix.pch */,
+				262C5A05DFC50521BA368B024BD9DB0D /* SHMediator-umbrella.h */,
+				E91C647947A26F0E2C2D2D52321C5DB5 /* SHMediator.debug.xcconfig */,
+				8C361525EE7731EE8877E9774236D995 /* SHMediator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SHMediator";
+			sourceTree = "<group>";
+		};
+		4BF55B9B5CB78C1AC0B14A93F962A8C3 /* Pods-SHMediator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A90A8E46647991957B6F9B1259690CE4 /* Pods-SHMediator_Tests.modulemap */,
+				180BEA06B3C9D28E6F2185FC25F9DF62 /* Pods-SHMediator_Tests-acknowledgements.markdown */,
+				463B3D00CB3F266C63E24F2CC284A32D /* Pods-SHMediator_Tests-acknowledgements.plist */,
+				5C04FEEBA37C74C7AFA95317BD0A6553 /* Pods-SHMediator_Tests-dummy.m */,
+				987A936B39B00C65A1D7EF8752C6B52E /* Pods-SHMediator_Tests-Info.plist */,
+				7BC0995D2CF3ACAA03CCD47F327372E8 /* Pods-SHMediator_Tests-umbrella.h */,
+				146FEF455E1A3EE4365DF4F6206FB129 /* Pods-SHMediator_Tests.debug.xcconfig */,
+				05456CEAB94B15422321BA56F24882E8 /* Pods-SHMediator_Tests.release.xcconfig */,
+			);
+			name = "Pods-SHMediator_Tests";
+			path = "Target Support Files/Pods-SHMediator_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63E29D0DCEDF71D36E4C865C0DEEDBF9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1C15BDFEF57BFF5B80DC5FEF77C1D37 /* Pods-SHMediator_Example */,
+				4BF55B9B5CB78C1AC0B14A93F962A8C3 /* Pods-SHMediator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		829EB8B25B76BA0706EFA0F1A783D2E8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECE43805B7427D59A3A2E0A2769E5504 /* SHMediator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				829EB8B25B76BA0706EFA0F1A783D2E8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E63C969A7F56773E7D62276F30485204 /* Products */,
+				63E29D0DCEDF71D36E4C865C0DEEDBF9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63C969A7F56773E7D62276F30485204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C0E0BD7FC195A97C21DA82213C120BA /* Pods-SHMediator_Example */,
+				8818D995D1EC107D901C820F215F2CC5 /* Pods-SHMediator_Tests */,
+				E3ED7A6E539B59B966F41699AEDB7903 /* SHMediator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE43805B7427D59A3A2E0A2769E5504 /* SHMediator */ = {
+			isa = PBXGroup;
+			children = (
+				CD0E45B04D2852547AA6DD19B6C775CF /* SHMediator.h */,
+				AFACE47F6A78EC1F935CED9054BA82E1 /* SHMediator.m */,
+				2D74170974E9491932B82C7463398DE2 /* SHMediator+HandyTools.h */,
+				CDB368AEFD300ED670E8BD7C91A9B073 /* SHMediator+HandyTools.m */,
+				F0EC1D493BB43416D94D0CABE627B9B7 /* Pod */,
+				271D879116BEDCB56C95305CF3AD37DC /* Support Files */,
+			);
+			name = SHMediator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F0EC1D493BB43416D94D0CABE627B9B7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A07604448ED6DB603DE15887E7DBE8B0 /* LICENSE */,
+				E39349B913C0B70E6BF826229E2F5342 /* README.md */,
+				20FE17F10A95A81F3DF2DE84A5E81F3B /* SHMediator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F1C15BDFEF57BFF5B80DC5FEF77C1D37 /* Pods-SHMediator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0995B541FBD1220C41B2DD7A385AC1BC /* Pods-SHMediator_Example.modulemap */,
+				09E6309E56BB6792BE0700ED1A58BF7A /* Pods-SHMediator_Example-acknowledgements.markdown */,
+				E430F3CEB0CBB7EE81A3711F8CC070FF /* Pods-SHMediator_Example-acknowledgements.plist */,
+				E39BDEEDEAC3E788E4A3AA6618064C15 /* Pods-SHMediator_Example-dummy.m */,
+				2B236EC9EC5FF95EDAEFB9B304C20F6C /* Pods-SHMediator_Example-frameworks.sh */,
+				308A73553DD253440E40C4EC1DBBB4D8 /* Pods-SHMediator_Example-Info.plist */,
+				35667F3C5D57CC1E6C933D5B22B17F43 /* Pods-SHMediator_Example-umbrella.h */,
+				4104F539EAF3B864ECFC3A669C60BC64 /* Pods-SHMediator_Example.debug.xcconfig */,
+				B43F1DCA678A9E1AC0D1AE02D06409FC /* Pods-SHMediator_Example.release.xcconfig */,
+			);
+			name = "Pods-SHMediator_Example";
+			path = "Target Support Files/Pods-SHMediator_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		193EB12784DB96D4CFBD0F5A0000EBEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94D5A898D6D5801041B1E3C3D426C69 /* Pods-SHMediator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4FB1BCE8F7ABCDAE61EE9DE5BC2249 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45723086DC8383D787836A509DFB5B50 /* SHMediator.h in Headers */,
+				9237766F567CE82D02336D7DD2F02DCA /* SHMediator+HandyTools.h in Headers */,
+				8E87BA0CCAFDFB4E9A2A73137F41D7FE /* SHMediator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AEA191FB441C8078EB329E4388B82B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D95E64041E5B165A7A9ABF1DAFFD681 /* Pods-SHMediator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		677FD0E19D24BA3E4A913214430AB678 /* SHMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9476ECC0A38F337251C3234E4933B041 /* Build configuration list for PBXNativeTarget "SHMediator" */;
+			buildPhases = (
+				6B4FB1BCE8F7ABCDAE61EE9DE5BC2249 /* Headers */,
+				2D87A8838BA274064A381C92F660C145 /* Sources */,
+				3D234E7ADDAF00E2C581529267BFDF29 /* Frameworks */,
+				68B16293B09BFB75DF65C990B13CBF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHMediator;
+			productName = SHMediator;
+			productReference = E3ED7A6E539B59B966F41699AEDB7903 /* SHMediator */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1464C4B90907B6EFD0EA152B95CF40D /* Pods-SHMediator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7BCC3F7E29B67E9E1D8147D4FD94E7 /* Build configuration list for PBXNativeTarget "Pods-SHMediator_Tests" */;
+			buildPhases = (
+				E8AEA191FB441C8078EB329E4388B82B /* Headers */,
+				D4F52B0A4F07889E3E086020308FD40C /* Sources */,
+				388E69D0198ADA4AFDD2241FB46A7942 /* Frameworks */,
+				3D6BC7D5D8843F86DF78A091547E4E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206B0EBA31DF8CD61B8793EAEF85857B /* PBXTargetDependency */,
+			);
+			name = "Pods-SHMediator_Tests";
+			productName = Pods_SHMediator_Tests;
+			productReference = 8818D995D1EC107D901C820F215F2CC5 /* Pods-SHMediator_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F781245365FC66D568321140957F1F1F /* Pods-SHMediator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B70E7BCCC830A674F48F495EC7798462 /* Build configuration list for PBXNativeTarget "Pods-SHMediator_Example" */;
+			buildPhases = (
+				193EB12784DB96D4CFBD0F5A0000EBEC /* Headers */,
+				3BB0C934E720F7469665A2E60A390A1C /* Sources */,
+				69C2C897A5551147E5243130B978EF92 /* Frameworks */,
+				3B0B81BE931C83EA48FF8A0CCA5DB9A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D9D57031EC7ACA314F5D932ADBF8B3E /* PBXTargetDependency */,
+			);
+			name = "Pods-SHMediator_Example";
+			productName = Pods_SHMediator_Example;
+			productReference = 7C0E0BD7FC195A97C21DA82213C120BA /* Pods-SHMediator_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E63C969A7F56773E7D62276F30485204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F781245365FC66D568321140957F1F1F /* Pods-SHMediator_Example */,
+				F1464C4B90907B6EFD0EA152B95CF40D /* Pods-SHMediator_Tests */,
+				677FD0E19D24BA3E4A913214430AB678 /* SHMediator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B0B81BE931C83EA48FF8A0CCA5DB9A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6BC7D5D8843F86DF78A091547E4E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B16293B09BFB75DF65C990B13CBF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D87A8838BA274064A381C92F660C145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9D5B353228C93F4EE4D92C685243DA /* SHMediator.m in Sources */,
+				34557EBD314670ED9278521155178EC8 /* SHMediator+HandyTools.m in Sources */,
+				07E4354AAAD28CA5B3151B07761327ED /* SHMediator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB0C934E720F7469665A2E60A390A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DA45B325C62A0C062D19CE4F849928 /* Pods-SHMediator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F52B0A4F07889E3E086020308FD40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E47FCC0D2B2814B680C46BB7E60840 /* Pods-SHMediator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		206B0EBA31DF8CD61B8793EAEF85857B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SHMediator_Example";
+			target = F781245365FC66D568321140957F1F1F /* Pods-SHMediator_Example */;
+			targetProxy = 80511167BCBE60717F5B449A4935271D /* PBXContainerItemProxy */;
+		};
+		3D9D57031EC7ACA314F5D932ADBF8B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHMediator;
+			target = 677FD0E19D24BA3E4A913214430AB678 /* SHMediator */;
+			targetProxy = CC16DC6D0E67D08BAEFD856592D693DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		454D35EF092B43308A0ABC93307C32FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146FEF455E1A3EE4365DF4F6206FB129 /* Pods-SHMediator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHMediator_Tests/Pods-SHMediator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHMediator_Tests/Pods-SHMediator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57834C6B249032943083CBB75B0CFFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4104F539EAF3B864ECFC3A669C60BC64 /* Pods-SHMediator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHMediator_Example/Pods-SHMediator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHMediator_Example/Pods-SHMediator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A6B4FF07A22D2AC51B5B4DE64439405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05456CEAB94B15422321BA56F24882E8 /* Pods-SHMediator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHMediator_Tests/Pods-SHMediator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHMediator_Tests/Pods-SHMediator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DDD8CA2127A91F5D43C0B14E1B40540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43F1DCA678A9E1AC0D1AE02D06409FC /* Pods-SHMediator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHMediator_Example/Pods-SHMediator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHMediator_Example/Pods-SHMediator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D281DCA4526E72CBFC44FE01BE739821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91C647947A26F0E2C2D2D52321C5DB5 /* SHMediator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SHMediator/SHMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SHMediator/SHMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SHMediator/SHMediator.modulemap";
+				PRODUCT_MODULE_NAME = SHMediator;
+				PRODUCT_NAME = SHMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FF46CC2B4E6EF100F22C35674BF6E0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C361525EE7731EE8877E9774236D995 /* SHMediator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SHMediator/SHMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SHMediator/SHMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SHMediator/SHMediator.modulemap";
+				PRODUCT_MODULE_NAME = SHMediator;
+				PRODUCT_NAME = SHMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7BCC3F7E29B67E9E1D8147D4FD94E7 /* Build configuration list for PBXNativeTarget "Pods-SHMediator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454D35EF092B43308A0ABC93307C32FF /* Debug */,
+				5A6B4FF07A22D2AC51B5B4DE64439405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9476ECC0A38F337251C3234E4933B041 /* Build configuration list for PBXNativeTarget "SHMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D281DCA4526E72CBFC44FE01BE739821 /* Debug */,
+				FF46CC2B4E6EF100F22C35674BF6E0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B70E7BCCC830A674F48F495EC7798462 /* Build configuration list for PBXNativeTarget "Pods-SHMediator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57834C6B249032943083CBB75B0CFFE8 /* Debug */,
+				7DDD8CA2127A91F5D43C0B14E1B40540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

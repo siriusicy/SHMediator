@@ -1,0 +1,16 @@
+PODS:
+  - SHMediator (0.1.0)
+
+DEPENDENCIES:
+  - SHMediator (from `../`)
+
+EXTERNAL SOURCES:
+  SHMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SHMediator: df7b0a3b4fcdbf16c5fc4c1bdf2234214210088f
+
+PODFILE CHECKSUM: ee89178e21584e231d14f63c8436811243e29405
+
+COCOAPODS: 1.12.1

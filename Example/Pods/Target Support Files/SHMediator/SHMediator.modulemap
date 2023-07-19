@@ -1,0 +1,6 @@
+framework module SHMediator {
+  umbrella header "SHMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

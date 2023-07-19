@@ -1,0 +1,16 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
+
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SHMediator_Example' do
+  pod 'SHMediator', :path => '../'
+
+  target 'SHMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
