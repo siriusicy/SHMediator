@@ -19,7 +19,7 @@ NSString * const kTarget_Common = @"CommonActions";
     UIViewController *vc = [self.sharedInstance performTarget:kTarget_Common
                                                        action:@"orderConfirmVC"
                                                        params:params
-                                            shouldCacheTarget:NO];
+                                            shouldCacheTarget:YES];
 
     return vc;
 }
@@ -31,7 +31,7 @@ NSString * const kTarget_Common = @"CommonActions";
     [self.sharedInstance performTarget:kTarget_Common
                                 action:@"appDidFinishLaunching111"
                                 params:nil
-                     shouldCacheTarget:NO];
+                     shouldCacheTarget:YES];
     
 }
 

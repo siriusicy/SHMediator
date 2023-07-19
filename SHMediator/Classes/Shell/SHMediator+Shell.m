@@ -21,7 +21,7 @@ NSString * const kTarget_Shell = @"ShellActions";
     [self.sharedInstance performTarget:kTarget_Shell
                                 action:@"addTrack"
                                 params:params.copy
-                     shouldCacheTarget:NO];
+                     shouldCacheTarget:YES];
     
 }
 
